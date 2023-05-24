@@ -8,6 +8,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ProjectComponent } from './project/project.component'; 
 import { RouterModule, Routes } from '@angular/router';
 
+
 const routes: Routes=[
   { path: '', redirectTo: '/login', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
@@ -29,7 +30,8 @@ const routes: Routes=[
     LoginComponent,
     HomeComponent,
     AboutUsComponent,
-    ProjectComponent
+    ProjectComponent,
+  
   ],
   imports: [
     BrowserModule,

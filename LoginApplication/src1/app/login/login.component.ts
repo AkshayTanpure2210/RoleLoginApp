@@ -10,8 +10,8 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent {
 
-  userName:string |any;
-  password:string |any
+ userName:string |any;
+ password:string |any
  loggedIn:any;
  role:any;
 
